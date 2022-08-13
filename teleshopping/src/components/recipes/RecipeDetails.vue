@@ -35,18 +35,17 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  @import "@/style/Global.scss";
-  .recipe-panel{
-    border: 3px solid black;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: grey;
-    height: 95%;
-    width: 95%;
-    z-index: 1;
-  }
-  
+@import "@/style/Global.scss";
+.recipe-panel {
+  border: 3px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  height: 95%;
+  width: 95%;
+  z-index: 1;
+}
 </style>
